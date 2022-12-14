@@ -1,0 +1,21 @@
+{
+  "name": "nodeminio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "minio": "^7.0.18",
+    "multer": "^1.4.2",
+    "multer-minio-storage": "0.0.8",
+    "multer-s3": "^2.9.0",
+    "nodemon": "^2.0.7"
+  }
+}
